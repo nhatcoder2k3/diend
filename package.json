@@ -1,0 +1,56 @@
+{
+  "name": "diend",
+  "version": "1.0.0",
+  "description": "Modern CSS framework based on Flexbox",
+  "main": "diend.sass",
+  "scripts": {
+    "build": "npm run build-sass && npm run build-autoprefix && npm run build-cleancss",
+    "build-autoprefix": "postcss --use autoprefixer --map false --output css/diend.css css/diend.css",
+    "build-cleancss": "cleancss -o css/diend.min.css css/diend.css",
+    "build-sass": "node-sass --output-style expanded --source-map true diend.sass css/diend.css",
+    "clean": "rimraf css",
+    "rtl": "npm run rtl-sass && npm run rtl-autoprefix && npm run rtl-cleancss",
+    "rtl-sass": "node-sass --output-style expanded --source-map true diend-rtl.sass css/diend-rtl.css",
+    "rtl-autoprefix": "postcss --use autoprefixer --map false --output css/diend-rtl.css css/diend-rtl.css",
+    "rtl-cleancss": "cleancss -o css/diend-rtl.min.css css/diend-rtl.css",
+    "deploy": "npm run clean && npm run build && npm run rtl",
+    "start": "npm run build-sass -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nhatcoder2k3/diend.git"
+  },
+  "unpkg": "css/diend.css",
+  "style": "diend/css/diend.min.css",
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "clean-css-cli": "^5.6.0",
+    "node-sass": "^7.0.1",
+    "postcss-cli": "^9.1.0",
+    "rimraf": "^3.0.2"
+  },
+  "keywords": [
+    "CSS",
+    "SASS",
+    "FLEXBOX",
+    "RESPONSE",
+    "FRAMEWORK"
+  ],
+  "author": {
+    "name": "Nhatcoder2k3",
+    "email": "hanzo15082003@gmail.com",
+    "url": "https://www.facebook.com/taolagin2003"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nhatcoder2k3/diend/issues"
+  },
+  "homepage": "https://github.com/nhatcoder2k3/diend#readme",
+  "files": [
+    "css",
+    "src",
+    "diend.sass",
+    "LICENSE",
+    "README.md"
+  ]
+}
