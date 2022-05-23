@@ -1,6 +1,6 @@
 {
   "name": "diend",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Modern CSS framework based on Flexbox",
   "main": "diend.sass",
   "scripts": {
@@ -38,7 +38,7 @@
   ],
   "author": {
     "name": "Nhatcoder2k3",
-    "email": "hanzo15082003@gmail.com",
+    "email": "nhatcoder2k3@hotmail.com",
     "url": "https://www.facebook.com/taolagin2003"
   },
   "license": "ISC",
