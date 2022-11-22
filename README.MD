@@ -81,7 +81,7 @@ Browse the [online documentation here.](https://diend.vuminhnhat.xyz/documentati
 
 ## Copyright and license ![Github](https://img.shields.io/github/license/nhatcoder2k3/diend?logo=Github)
 
-Code copyright 2022 Jeremy Thomas. Code released under [the MIT license](https://github.com/nhatcoder2k3/diend/blob/master/LICENSE).
+Code copyright 2022 Vũ Minh Nhật. Code released under [the MIT license](https://github.com/nhatcoder2k3/diend/blob/master/LICENSE).
 
 [npm-link]: https://www.npmjs.com/package/diend
 [awesome-link]: https://github.com/awesome-css-group/awesome-css
