@@ -10,9 +10,8 @@ Diend is a **modern CSS framework** based on [Flexbox](https://developer.mozilla
 [![Join the chat at https://gitter.im/nhatcoder2k3/diend](https://badges.gitter.im/nhatcoder2k3/diend.svg)](https://gitter.im/nhatcoder2k3/diend)
 [![Build Status](https://travis-ci.org/nhatcoder2k3/diend.svg?branch=master)](https://travis-ci.org/nhatcoder2k3/diend)
 
-<a href="https://diend.vuminhnhat.xyz"><img src="https://raw.githubusercontent.com/nhatcoder2k3/diend/master/docs/images/diend-banner.png" alt="Diend: a Flexbox CSS framework" style="max-width:100%;" width="600"></a>
 
-## Quick install
+## Cài Đặt Nhanh
 
 Diend is constantly in development! Try it out now:
 
@@ -38,7 +37,7 @@ bower install diend
 
 ### Import
 
-After installation, you can import the CSS file into your project using this snippet:
+Sau khi cài đặt bạn có thể nhập vào dự án của bạn bằng đoạn mã sau
 
 ```sh
 @import 'diend/css/diend.css'
@@ -52,15 +51,15 @@ Feel free to raise an issue or submit a pull request.
 
 ## CSS only
 
-Diend is a **CSS** framework. As such, the sole output is a single CSS file: [diend.css](https://github.com/nhatcoder2k3/diend/blob/master/css/diend.css)
+Diend là framework **CSS** đầu ra sẽ là 1 tệp: [diend.css](https://github.com/nhatcoder2k3/diend/blob/master/css/diend.css)
 
-You can either use that file, "out of the box", or download the Sass source files to customize the [variables](https://diend.vuminhnhat.xyz/documentation/overview/variables/).
+Bạn có thể sử dụng tệp đó, "có sẵn" hoặc tải xuống tệp nguồn Sass để tùy chỉnh [biến](https://diend.vuminhnhat.xyz/documentation/overview/variables/).
 
-There is **no** JavaScript included. People generally want to use their own JS implementation (and usually already have one). Diend can be considered "environment agnostic": it's just the style layer on top of the logic.
+Có **không** JavaScript đi kèm. Mọi người thường muốn sử dụng triển khai JS của riêng họ (và thường đã có). Diend có thể được coi là "bất khả tri về môi trường": nó chỉ là lớp kiểu ở trên cùng của logic.
 
-## Browser Support
+## Hỗ Trợ Trình Duyệt
 
-Diend uses [autoprefixer](https://github.com/postcss/autoprefixer) to make (most) Flexbox features compatible with earlier browser versions. According to [Can I use](https://caniuse.com/#feat=flexbox), Diend is compatible with **recent** versions of:
+Diend sử dụng [autoprefixer](https://github.com/postcss/autoprefixer) để làm cho (hầu hết) các tính năng của Flexbox tương thích với các phiên bản trình duyệt cũ hơn. Theo [Tôi có thể sử dụng](https://caniuse.com/#feat=flexbox), Diend tương thích với **phiên bản** gần đây của:
 
 - Chrome
 - Edge
@@ -68,20 +67,14 @@ Diend uses [autoprefixer](https://github.com/postcss/autoprefixer) to make (most
 - Opera
 - Safari
 
-Internet Explorer (10+) is only partially supported.
+Internet Explorer (10+) chỉ được hỗ trợ một phần.
 
-## Documentation
-
-The documentation resides in the [docs](docs) directory, and is built with the Ruby-based [Jekyll](https://jekyllrb.com/) tool.
-
-Browse the [online documentation here.](https://diend.vuminhnhat.xyz/documentation/overview/start/)
-
-## Related projects
+## Tài liệu
+`Hiện tài liệu của dự án đang trong quá trình soạn thảo`
 
 
-## Copyright and license ![Github](https://img.shields.io/github/license/nhatcoder2k3/diend?logo=Github)
 
-Code copyright 2022 Vũ Minh Nhật. Code released under [the MIT license](https://github.com/nhatcoder2k3/diend/blob/master/LICENSE).
+Copyright 2022 Vũ Minh Nhật. Code released under [the MIT license](https://github.com/nhatcoder2k3/diend/blob/master/LICENSE).
 
 [npm-link]: https://www.npmjs.com/package/diend
 [awesome-link]: https://github.com/awesome-css-group/awesome-css

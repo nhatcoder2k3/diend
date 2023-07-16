@@ -1,6 +1,6 @@
 {
   "name": "diend",
-  "version": "1.0.1",
+  "version": "1.1.2",
   "description": "Modern CSS framework based on Flexbox",
   "main": "diend.sass",
   "scripts": {
@@ -36,11 +36,7 @@
     "RESPONSE",
     "FRAMEWORK"
   ],
-  "author": {
-    "name": "Nhatcoder2k3",
-    "email": "nhatcoder2k3@hotmail.com",
-    "url": "https://www.facebook.com/taolagin2003"
-  },
+  "author": "Nhatcoder2k3 <nhatcoder2k3@hotmail.com> (https://www.facebook.com/vuminhnhat10092003)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/nhatcoder2k3/diend/issues"
